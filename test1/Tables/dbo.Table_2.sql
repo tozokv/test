@@ -3,7 +3,9 @@ SET QUOTED_IDENTIFIER ON
 SET ANSI_PADDING ON
 GO
 CREATE TABLE [dbo].[Table_2] (
-,
+		[table2]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+		[name]       [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[number]     [int] NULL,
 		CONSTRAINT [PK_Table_2]
 		PRIMARY KEY
 		CLUSTERED
