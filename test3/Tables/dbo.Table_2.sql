@@ -10,7 +10,6 @@ CREATE TABLE [dbo].[Table_2] (
 		[new2]       [int] NULL,
 		[new3]       [int] NULL,
 		[new4]       [int] NULL,
-		[new5]       [int] NULL,
 		CONSTRAINT [PK_Table_2]
 		PRIMARY KEY
 		CLUSTERED
