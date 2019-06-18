@@ -1,0 +1,4 @@
+CREATE USER [Mara_01]
+	FOR LOGIN [Lima]
+	WITH DEFAULT_SCHEMA = [dbo]
+GO
