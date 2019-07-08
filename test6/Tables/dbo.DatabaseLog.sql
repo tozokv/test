@@ -13,13 +13,6 @@ CREATE TABLE [dbo].[DatabaseLog] (
 		[XmlEvent]          [xml] NOT NULL,
 		[new]               [int] NULL,
 		[adad]              [int] NULL,
-		[asdasd]            [int] NULL,
-		[asasd]             [int] NULL,
-		[fsd]               [int] NULL,
-		[sdgfd]             [int] NULL,
-		[sdfq]              [int] NULL,
-		[afas]              [int] NULL,
-		[asdas]             [int] NULL,
 		CONSTRAINT [PK_DatabaseLog_DatabaseLogID]
 		PRIMARY KEY
 		NONCLUSTERED
