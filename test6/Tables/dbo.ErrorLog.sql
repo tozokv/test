@@ -12,6 +12,15 @@ CREATE TABLE [dbo].[ErrorLog] (
 		[ErrorProcedure]     [nvarchar](126) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[ErrorLine]          [int] NULL,
 		[ErrorMessage]       [nvarchar](4000) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+		[asd]                [int] NULL,
+		[ag]                 [int] NULL,
+		[gsd]                [int] NULL,
+		[adsf]               [int] NULL,
+		[agf]                [int] NULL,
+		[adsg]               [int] NULL,
+		[asdad]              [int] NULL,
+		[adsfw]              [int] NULL,
+		[asde]               [int] NULL,
 		CONSTRAINT [PK_ErrorLog_ErrorLogID]
 		PRIMARY KEY
 		CLUSTERED
