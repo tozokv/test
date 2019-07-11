@@ -16,6 +16,7 @@ CREATE TABLE [Person].[Person] (
 		[Demographics]              [xml](CONTENT [Person].[IndividualSurveySchemaCollection]) NULL,
 		[rowguid]                   [uniqueidentifier] NOT NULL ROWGUIDCOL,
 		[ModifiedDate]              [datetime] NOT NULL,
+		[new1]                      [int] NULL,
 		CONSTRAINT [PK_Person_BusinessEntityID]
 		PRIMARY KEY
 		CLUSTERED
